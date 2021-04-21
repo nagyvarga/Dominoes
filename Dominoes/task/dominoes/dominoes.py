@@ -12,7 +12,7 @@ def player_input(max_pieces_of_set):
     number_of_decision = 0
     while True:
         invalid_input_status = True
-        decision = input()
+        decision = input(">>>")
         length_of_decision = len(decision)
 
         if length_of_decision == 1:
